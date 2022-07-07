@@ -1,0 +1,160 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/*************************************
+  STYLING THE HEADER
+**************************************/
+header {
+    background: -webkit-linear-gradient(navy,rgb(54, 54, 210),rgb(93, 93, 230));
+    height: 6.5rem;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px 60px;
+    
+}
+hr {
+    background-color: rgb(5, 5, 59);
+    height: 5px;
+    border: none;
+}
+header h1 {
+    font-size: 3rem;
+}
+nav a {
+    margin-right: 1.5rem;
+    text-decoration: none;
+    color: white;
+    font-size: 1.2rem;
+}
+nav a:hover {
+    text-decoration: underline;
+    color: rgb(5, 5, 59);
+    font-size: 1.5rem;
+}
+nav a:first-child{
+    color: rgb(5, 5, 59);
+}
+nav a:first-child:hover{
+    color: white;
+    font-size: 1.5rem;
+    /* box-shadow: 1px 1px 12px 2px rgb(27, 27, 202); */
+}
+/*************************************
+  STYLING THE MAIN
+**************************************/
+main {
+    text-align: center;
+    margin-top: 3rem;
+}
+main h1 {
+    color: navy;
+    font-size: 2.5rem;
+}
+.index img {
+    margin-top: 10px;
+    width: 300px;
+    margin-right: 5px;
+    height: auto;
+}
+.index img:hover {
+    box-shadow: 1px 1px 5px 1px rgb(27, 27, 202);
+}
+main section {
+ display: flex;
+ /* text-align: center; */
+ align-items: center;
+ justify-content: space-between;
+ padding: 0 12rem;
+}
+main a {
+   text-decoration: none;
+   color: navy;
+}
+main a:hover {
+    text-decoration: underline;
+    color: rgb(5, 5, 59);
+}
+/*************************************
+  STYLING THE FOOTER
+**************************************/
+footer {
+    font-size: 0.75em;
+    text-align: center;
+    clear: both;
+    padding-top: 50px;
+    color: rgb(170, 176, 200);
+    margin-top: 4rem;
+  }
+  .social-icon {
+    width: 20px;
+    height: 20px;
+    margin: 0 5px;
+  }
+   i{
+    font-size: 20px;
+   }
+   footer a {
+    color: rgb(54, 54, 210);
+   }
+   /*************************************
+  STYLING THE ABOUT PAGE
+**************************************/
+.about img{
+    width: 200px;
+    height: auto;
+    border-radius: 65%;
+}
+.about {
+    display: flex;
+    /* width: 70%; */
+    align-items: center;
+    /* text-align: center; */
+    padding-left: 12rem;
+
+
+}
+.about section{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-left: -10rem;
+}
+ /*************************************
+  STYLING THE CONTACT PAGE
+**************************************/
+.contact {
+    display: flex;
+    align-items: center;
+    /* width: 100vw; */
+    padding-right: 10rem;
+    display: block;
+  min-height: 20px;
+  background-repeat: no-repeat;
+  background-size: 20px 20px;
+  padding: 0 0 0 30px;
+  margin: 0 0 10px;
+}
+}
+.contact section:nth-child(1),
+.contact section:nth-child(2)
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.contact .phone a {
+    background-image: url('../img/phone.png');
+  }
+  
+  .contact .mail a {
+    background-image: url('../img/mail.png');
+  }
+  
+  .contact .twitter a {
+    background-image: url('../img/twitter.png');
+  }
+  
